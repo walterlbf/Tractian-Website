@@ -5,7 +5,7 @@ import menu from '../../imagens/hamburguer-menu.svg';
 
 export default function Header() {
   return (
-    <header className="bg-gradient-to-l from-black to-gray-800 flex w-full justify-center px-4 sm:px-6 fixed z-50">
+    <header className="flex w-full justify-center bg-black shadow-sm shadow-white px-4 sm:px-6 fixed z-50 ">
       <div className="w-full flex justify-between items-center m-4">
         <div className="mr-12">
           <Image src={logo} width={159} height={53} />
