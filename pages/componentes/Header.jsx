@@ -12,7 +12,7 @@ export default function Header() {
         </div>
         <nav className="hidden lg:flex"> nav </nav>
         <button type="button" className="w-10 h-10 border rounded-full p-2 inline-flex items-center justify-center text-gray-50 lg:hidden focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-          <Image src={menu} width={24} height={24} className="fill-none" />
+          <Image src={menu} width={16} height={16} className="fill-none" />
         </button>
       </div>
     </header>
