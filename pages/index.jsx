@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from './componentes/Header';
 import Banner from './componentes/Banner';
+import Servicos from './componentes/Servicos';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="bg-gradient-to-l from-black to-gray-800">
         <Header />
         <Banner />
+        <Servicos />
       </main>
     </>
   );
