@@ -5,7 +5,7 @@ import sensor from '../../imagens/sensor-plataforma-celular-tablet.png';
 
 function Servicos() {
   return (
-    <section className="bg-white container p-4">
+    <section className="bg-white p-4">
       <h1 className="text-yellow-600 text-lg tracking-wide font-semibold mb-4 lg:text-center sm:text-center">
         MANUTENÇÃO PREDITIVA DESCOMPLICADA
       </h1>
@@ -14,7 +14,9 @@ function Servicos() {
         <br />
         <b className="font-semibold">melhor desempenho</b>
       </p>
-      <section className="flex lg:flex-row flex-col gap-8 mt-2 ">
+      {/* <div class="grid grid-cols-4 gap-4"> */}
+
+      <section className="flex lg:grid lg:grid-cols-2 flex-col gap-8 mt-2 lg:items-stretch justify-center">
         <article className="bg-gray-900 shadow-2xl w-full text-white rounded-lg p-4 mb-6">
           <h1 className="font-bold text-3xl mb-4">
             Software de Manutenção
@@ -24,7 +26,7 @@ function Servicos() {
           <div className="bg-yellow-500 w-full h-2 mb-4" />
           <div className="text-center">
             <Image src={cmms} width={448} height={313.59} />
-            <p className="my-6">
+            <p className="my-6 text-xl">
               O CMMS revolucionário para planejar, acompanhar métricas e conectar-se com sua equipe.
             </p>
           </div>
@@ -39,7 +41,7 @@ function Servicos() {
           <div className="bg-black w-full h-2 mb-4" />
           <div className="text-center">
             <Image src={sensor} width={448} height={313.59} />
-            <p className="my-6">
+            <p className="my-6 text-xl">
               O sistema preditivo mais completo do mercado.
               Monitore vibração, temperatura e horímetro dos seus ativos.
             </p>
