@@ -5,8 +5,8 @@ import sensor from '../../imagens/sensor-plataforma-celular-tablet.png';
 
 function Servicos() {
   return (
-    <section>
-      <h1>
+    <section className="bg-white">
+      <h1 className="text-yellow-600 font-semibold mb-4">
         MANUTENÇÃO PREDITIVA DESCOMPLICADA
       </h1>
       <p>

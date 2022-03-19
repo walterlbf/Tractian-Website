@@ -6,7 +6,7 @@ import ondas from '../../imagens/ondas.svg';
 export default function Banner() {
   return (
     <>
-      <section className="text-white container justify-center px-6 pt-36 lg:flex">
+      <section className="text-white bg-gradient-to-l from-black to-gray-800 container justify-center px-6 pt-36 lg:flex">
         <div className="container">
           <h1 className="text-xl font-semibold mr-5 mb-5">
             Monitoramento Online e Gestão de Ativos em um só lugar
@@ -30,7 +30,7 @@ export default function Banner() {
         </div>
         <Image src={banner} className="w-full h-full" />
       </section>
-      <Image src={ondas} />
+      <Image src={ondas} className="bg-gradient-to-l from-black to-gray-800" />
     </>
   );
 }
