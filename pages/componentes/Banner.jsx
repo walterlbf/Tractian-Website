@@ -7,7 +7,7 @@ export default function Banner() {
   return (
     <>
       <section className="text-white lg:grid lg:grid-cols-2 bg-gradient-to-l from-black to-gray-800 justify-center align-center px-6 pt-36">
-        <div className="">
+        <article className="align-center">
           <h1 className="text-xl font-semibold mr-5 mb-5">
             Monitoramento Online e Gestão de Ativos em um só lugar
           </h1>
@@ -27,11 +27,11 @@ export default function Banner() {
               Acesse aqui.
             </a>
           </p>
-        </div>
+        </article>
         <Image src={banner} className="h-full w-screen" />
       </section>
       <div className="">
-        {/* <Image src={ondas} alt="" className="w-screen h-screen lg:m-7 bg-gradient-to-l from-black to-gray-800" /> */}
+        <Image src={ondas} alt="" className="w-screen h-screen lg:m-7 bg-gradient-to-l from-black to-gray-800" />
       </div>
     </>
   );

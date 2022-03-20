@@ -30,7 +30,9 @@ function Servicos() {
               O CMMS revolucionário para planejar, acompanhar métricas e conectar-se com sua equipe.
             </p>
           </div>
-          <button type="button" className="bg-yellow-500 text-black rounded px-6 py-2">Ver mais</button>
+          <div className="text-center">
+            <button type="button" className="bg-yellow-500 text-black rounded px-6 py-2">Ver mais</button>
+          </div>
         </article>
         <article className="shadow-2xl bg-yellow-500 rounded p-4 mb-6">
           <h1 className="font-bold text-3xl mb-4">
@@ -46,7 +48,9 @@ function Servicos() {
               Monitore vibração, temperatura e horímetro dos seus ativos.
             </p>
           </div>
-          <button type="button" className="bg-black rounded px-6 py-2 text-white">Ver mais</button>
+          <div className="text-center">
+            <button type="button" className="bg-black rounded px-6 py-2 text-white">Ver mais</button>
+          </div>
         </article>
       </section>
     </section>
