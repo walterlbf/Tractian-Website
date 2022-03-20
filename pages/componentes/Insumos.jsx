@@ -3,13 +3,13 @@ import React from 'react';
 export default function Insumos() {
   return (
     <section className="p-10">
-      <article className="text-center items-center p-10">
+      <article className="text-center items-center">
         <h1 className="text-3xl sm:text-4xl mb-6">
           Suas máquinas mais seguras.
         </h1>
         <div className="h-1 mb-4 mx-auto bg-black w-64 my-6 rounded" />
       </article>
-      <section className="grid grid-cols-3 gap-16 text-center ">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center ">
         <article>
           <h1 className="text-4xl font-bold">
             90%
@@ -35,6 +35,7 @@ export default function Insumos() {
           </p>
         </article>
       </section>
+      <div className="h-1 mb-4 mx-auto bg-black w-64 my-6 rounded" />
     </section>
   );
 }

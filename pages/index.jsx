@@ -5,6 +5,7 @@ import Banner from './componentes/Banner';
 import Servicos from './componentes/Servicos';
 import Pros from './componentes/Pros';
 import Insumos from './componentes/Insumos';
+import Form from './componentes/Form';
 // import ondas from '../../imagens/ondas.svg';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Servicos />
         <Pros />
         <Insumos />
+        <Form />
       </main>
     </>
   );
