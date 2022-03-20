@@ -26,7 +26,7 @@ function Servicos() {
           <div className="bg-yellow-500 w-full h-2 mb-4" />
           <div className="text-center">
             <Image src={cmms} width={448} height={313.59} />
-            <p className="my-6 text-xl">
+            <p className="my-6 text-xl text-left">
               O CMMS revolucionário para planejar, acompanhar métricas e conectar-se com sua equipe.
             </p>
           </div>
@@ -43,7 +43,7 @@ function Servicos() {
           <div className="bg-black w-full h-2 mb-4" />
           <div className="text-center">
             <Image src={sensor} width={448} height={313.59} />
-            <p className="my-6 text-xl">
+            <p className="my-6 text-xl text-left">
               O sistema preditivo mais completo do mercado.
               Monitore vibração, temperatura e horímetro dos seus ativos.
             </p>

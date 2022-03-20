@@ -13,7 +13,7 @@ export default function Pros() {
         <b> Tractian?</b>
       </h1>
       <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <article className="text border-2 border-yellow-500 rounded px-8 py-12">
+        <article className="text border-2 border-yellow-500 drop-shadow-lg rounded px-8 py-12">
           <Image src={plataform} width={80} height={70} />
           <h2 className="text-left font-bold text-lg mb-2 mt-2">
             Manutenção Preditiva
@@ -24,7 +24,7 @@ export default function Pros() {
             confiabilidade e insights automáticos.
           </p>
         </article>
-        <article className="text border-2 border-yellow-500 rounded px-8 py-12">
+        <article className="text border-2 border-yellow-500 drop-shadow-lg rounded px-8 py-12">
           <Image src={online} width={80} height={70} />
           <h2 className="text-left font-bold text-lg mb-2 mt-2">
             Monitoramento Online
@@ -35,7 +35,7 @@ export default function Pros() {
             horímetro e consumo de energia em tempo real.
           </p>
         </article>
-        <article className="text border-2 border-yellow-500 rounded px-8 py-12">
+        <article className="text border-2 border-yellow-500 drop-shadow-lg rounded px-8 py-12">
           <Image src={pump} width={80} height={70} />
           <h2 className="text-left font-bold text-lg mb-2 mt-2">
             Setup Instantâneo
@@ -45,7 +45,7 @@ export default function Pros() {
             sem necessidade de WiFi industrial, comunicação via 3G/4G independente.
           </p>
         </article>
-        <article className="text border-2 border-yellow-500 rounded px-8 py-12">
+        <article className="text border-2 border-yellow-500 drop-shadow-lg rounded px-8 py-12">
           <Image src={horimeter} width={80} height={70} />
           <h2 className="text-left font-bold text-lg mb-2 mt-2">
             CMMS Integrado
