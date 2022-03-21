@@ -11,17 +11,12 @@ https://tractian-website.herokuapp.com/
 
 ## Pre-visualização
 
-<<<<<<< HEAD
-- Telas grandes
-![image](desktop.png)
-![Exemplo de como apontar uma Pull Request para a branch main do grupo](pull-request-para-branch-do-grupo.png)
-
-=======
 - Telas grandes:
+
 ![image](desktop.png)
 
 - Telas menores (mobile):
-
+ 
 ![image](mobile.png)
 >>>>>>> 25691df33c470c28b90a68728803387598a41675
 
