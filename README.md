@@ -7,11 +7,13 @@ Website que tem como inspiração o site da Tractian.
 
 ## Pre-visualização
 
-- Telas grandes
-!.[image].(desktop.png)
+- Telas grandes:
+![image](desktop.png)
 
-- Telas menores (mobile)
-!.[image].(mobile.png)
+- Telas menores (mobile):
+
+![image](mobile.png)
+
 ## Para abrir esse codigo na sua maquina:
 
 - Abra o terminal e digite
@@ -19,3 +21,13 @@ Website que tem como inspiração o site da Tractian.
 - Entre no repositorio
 - Instale as dependencias `npm install`
 - Rode o projeto com `npm run dev` ou `yarn dev`
+## Tecnologias 
+
+- Next.JS
+- Taillwind CSS
+
+## OBS
+- Proptypes
+- terminar o menu sanduiche
+
+
