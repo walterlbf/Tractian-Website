@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Form() {
   return (
-    <section className="grid grid-col-span-1 gap-4 lg:px-36 items-center">
+    <section className="grid grid-col-span-1 gap-4 pb-24 lg:px-36 items-center">
       <h1 className="text-3xl text-center">
         Melhore os seus processos de manutenção
       </h1>
@@ -20,7 +20,7 @@ export default function Form() {
           Cargo
           <input className="rounded-xl p-2" type="text" name="cargo" placeholder="Insira seu cargo" />
         </label>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
           <label htmlFor="email" className=" grid grid-rows-2">
             E-mail profissional
             <input type="text" name="email" className="rounded-xl p-2" placeholder="Insira seu e-mail" />

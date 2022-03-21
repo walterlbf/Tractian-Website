@@ -6,6 +6,7 @@ import Servicos from './componentes/Servicos';
 import Pros from './componentes/Pros';
 import Insumos from './componentes/Insumos';
 import Form from './componentes/Form';
+import Footer from './componentes/Footer';
 // import ondas from '../../imagens/ondas.svg';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Pros />
         <Insumos />
         <Form />
+        <Footer />
       </main>
     </>
   );
