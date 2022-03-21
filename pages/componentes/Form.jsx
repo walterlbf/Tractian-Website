@@ -2,42 +2,33 @@ import React from 'react';
 
 export default function Form() {
   return (
-    <section>
+    <section className="grid grid-col-span-1 gap-4 lg:px-36 items-center">
       <h1 className="text-3xl text-center">
         Melhore os seus processos de manutenção
       </h1>
       <p className="text-center my-6">
         Preencha o formulário para uma demonstração.
       </p>
-      <form action="" className=" text-left bg-gray-900">
-        <div>
-          <label htmlFor="firstname">
-            Nome
-            <input type="text" name="firstname" placeholder="Insira seu nome" />
-          </label>
-        </div>
-        <div>
-          <label htmlFor="cargo">
-            Cargo
-            <input type="text" name="cargo" placeholder="Insira seu cargo" />
-          </label>
-        </div>
-        <div>
-          <label htmlFor="email">
+      <form action="" className="p-6 grid grid-cols-1 gap-4 rounded-xl text-white text-left bg-gray-900">
+
+        <label htmlFor="firstname" className="grid grid-rows-2">
+          Nome
+          <input className="rounded-xl p-2" type="text" name="firstname" placeholder="Insira seu nome" />
+        </label>
+
+        <label htmlFor="cargo" className=" grid grid-rows-2">
+          Cargo
+          <input className="rounded-xl p-2" type="text" name="cargo" placeholder="Insira seu cargo" />
+        </label>
+        <div className="grid grid-cols-2 gap-4">
+          <label htmlFor="email" className=" grid grid-rows-2">
             E-mail profissional
-            <input type="text" name="email" placeholder="Insira seu e-mail" />
+            <input type="text" name="email" className="rounded-xl p-2" placeholder="Insira seu e-mail" />
           </label>
-        </div>
-        <div>
-          <label htmlFor="telefone">
+
+          <label htmlFor="telefone" className="grid grid-rows-2">
             Telefone
-            <input type="text" name="telefone" placeholder="Insira seu telefone" />
-          </label>
-        </div>
-        <div>
-          <label htmlFor="firstname">
-            Nome
-            <input type="text" name="firstname" placeholder="Insira seu nome" />
+            <input type="text" name="telefone" className="rounded-xl p-2" placeholder="+55(XX) xxxxx-xxxx" />
           </label>
         </div>
         <button type="submit" className="rounded bg-yellow-500 px-16">Enviar</button>
