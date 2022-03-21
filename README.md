@@ -18,7 +18,6 @@ https://tractian-website.herokuapp.com/
 - Telas menores (mobile):
  
 ![image](mobile.png)
->>>>>>> 25691df33c470c28b90a68728803387598a41675
 
 ## Para abrir esse codigo na sua maquina:
 
