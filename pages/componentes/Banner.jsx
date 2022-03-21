@@ -6,8 +6,8 @@ import ondas from '../../imagens/ondas.svg';
 export default function Banner() {
   return (
     <>
-      <section className="text-white lg:grid lg:grid-cols-2 bg-gradient-to-l from-black to-gray-800 justify-center align-center px-10 pt-36">
-        <article className="align-center lg:py-60 lg:px-24">
+      <section className="text-white grid lg:grid lg:grid-cols-2 bg-gradient-to-l from-black to-gray-800 justify-center align-center px-10 py-36">
+        <article className="align-center lg:pt-60 lg:px-26">
           <h1 className="text-xl font-semibold mr-5 mb-5 lg:text-4xl">
             Monitoramento Online e Gestão de Ativos em um só lugar
           </h1>
