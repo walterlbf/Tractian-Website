@@ -7,8 +7,11 @@ Website que tem como inspiração o site da Tractian.
 
 ## Pre-visualização
 
+- Telas grandes
+!.[image].(desktop.png)
 
-
+- Telas menores (mobile)
+!.[image].(mobile.png)
 ## Para abrir esse codigo na sua maquina:
 
 - Abra o terminal e digite
