@@ -8,7 +8,9 @@ Website que tem como inspiração o site da Tractian.
 ## Pre-visualização
 
 - Telas grandes
-!.[image].(desktop.png)
+![image](desktop.png)
+![Exemplo de como apontar uma Pull Request para a branch main do grupo](pull-request-para-branch-do-grupo.png)
+
 
 - Telas menores (mobile)
 !.[image].(mobile.png)
