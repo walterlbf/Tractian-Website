@@ -4,7 +4,10 @@
 ## Descrição
 
 Website que tem como inspiração o site da Tractian.
-Acesse: https://tractian-website.herokuapp.com/
+
+## Deploy
+
+https://tractian-website.herokuapp.com/
 
 ## Pre-visualização
 
