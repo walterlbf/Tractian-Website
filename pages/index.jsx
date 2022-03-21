@@ -7,7 +7,6 @@ import Pros from './componentes/Pros';
 import Insumos from './componentes/Insumos';
 import Form from './componentes/Form';
 import Footer from './componentes/Footer';
-// import ondas from '../../imagens/ondas.svg';
 
 export default function Home() {
   return (
